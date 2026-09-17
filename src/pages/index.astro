@@ -4,5 +4,264 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="Home Page">
-    <h1>Test</h1>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#testimonials">Testimonials</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>[Your Name]</h1>
+            <h2>
+                [Exact Role &amp; Value Proposition, e.g., "Frontend Engineer
+                building high-performance web applications"]
+            </h2>
+            <p>
+                <strong>Quick Hook:</strong> [A single sentence summarizing your
+                specialty or domain focus.]
+            </p>
+            <p>
+                <a href="#work">View Featured Work</a> |
+                <a href="#contact">Get in Touch</a>
+            </p>
+        </section>
+
+        <hr />
+
+        <!-- Featured Work Section -->
+        <section id="work">
+            <h2>Featured Work</h2>
+
+            <!-- Case Study 1 -->
+            <article>
+                <h3>[Project Title 1]</h3>
+                <p>
+                    <strong>Context &amp; Role:</strong> [What the project was,
+                    who it was for, and your exact responsibilities.]
+                </p>
+
+                <h4>Problem &amp; Process</h4>
+                <p>[The core challenge, key decisions made, and tools used.]</p>
+
+                <h4>Results &amp; Impact</h4>
+                <ul>
+                    <li>[Metric: e.g., Improved load times by 40%]</li>
+                    <li>[Outcome: e.g., Adopted by 50k active users]</li>
+                </ul>
+
+                <p>
+                    <a href="#" target="_blank">
+                        Live Demo
+                    </a>{" "}
+                    |
+                    <a href="#" target="_blank">
+                        Source Code / Case Study
+                    </a>
+                </p>
+            </article>
+
+            <!-- Case Study 2 -->
+            <article>
+                <h3>[Project Title 2]</h3>
+                <p>
+                    <strong>Context &amp; Role:</strong> [What the project was,
+                    who it was for, and your exact responsibilities.]
+                </p>
+
+                <h4>Problem &amp; Process</h4>
+                <p>[The core challenge, key decisions made, and tools used.]</p>
+
+                <h4>Results &amp; Impact</h4>
+                <ul>
+                    <li>[Metric 1]</li>
+                    <li>[Metric 2]</li>
+                </ul>
+
+                <p>
+                    <a href="#" target="_blank">
+                        Live Demo
+                    </a>{" "}
+                    |
+                    <a href="#" target="_blank">
+                        Source Code / Case Study
+                    </a>
+                </p>
+            </article>
+
+            <!-- Case Study 3 -->
+            <article>
+                <h3>[Project Title 3]</h3>
+                <p>
+                    <strong>Context &amp; Role:</strong> [What the project was,
+                    who it was for, and your exact responsibilities.]
+                </p>
+
+                <h4>Problem &amp; Process</h4>
+                <p>[The core challenge, key decisions made, and tools used.]</p>
+
+                <h4>Results &amp; Impact</h4>
+                <ul>
+                    <li>[Metric 1]</li>
+                    <li>[Metric 2]</li>
+                </ul>
+
+                <p>
+                    <a href="#" target="_blank">
+                        Live Demo
+                    </a>{" "}
+                    |
+                    <a href="#" target="_blank">
+                        Source Code / Case Study
+                    </a>
+                </p>
+            </article>
+        </section>
+
+        <hr />
+
+        <!-- About & Philosophy Section -->
+        <section id="about">
+            <h2>About &amp; Philosophy</h2>
+
+            <h3>Concise Bio</h3>
+            <p>
+                [A short background narrative explaining your approach, career
+                progression, and what drives your work.]
+            </p>
+
+            <h3>Capabilities &amp; Skill Matrix</h3>
+            <ul>
+                <li>
+                    <strong>Languages &amp; Core Tools:</strong> [e.g., HTML,
+                    CSS, JavaScript, TypeScript]
+                </li>
+                <li>
+                    <strong>Frameworks &amp; Libraries:</strong> [e.g., React,
+                    Next.js, Node.js]
+                </li>
+                <li>
+                    <strong>Design &amp; Workflow:</strong> [e.g., Figma, Git,
+                    CI/CD pipelines]
+                </li>
+            </ul>
+
+            <h3>Beyond Work</h3>
+            <p>
+                [A minor personal detail, interests, reading list, or side
+                projects to make you memorable.]
+            </p>
+        </section>
+
+        <hr />
+
+        <!-- Social Proof Section -->
+        <section id="testimonials">
+            <h2>Social Proof &amp; Recommendations</h2>
+
+            <h3>Testimonials</h3>
+            <blockquote>
+                <p>
+                    "[Quote from a manager, client, or colleague highlighting
+                    your work ethic, problem-solving, or collaboration.]"
+                </p>
+                <footer>
+                    — <cite>[Name], [Title / Company]</cite>
+                </footer>
+            </blockquote>
+
+            <blockquote>
+                <p>
+                    "[Second short quote reinforcing key strengths and business
+                    impact.]"
+                </p>
+                <footer>
+                    — <cite>[Name], [Title / Company]</cite>
+                </footer>
+            </blockquote>
+
+            <h3>Notable Affiliations / Highlights</h3>
+            <ul>
+                <li>[Company / Client Logo or Name 1]</li>
+                <li>[Company / Client Logo or Name 2]</li>
+                <li>[Press mention, award, or public speaking engagement]</li>
+            </ul>
+        </section>
+
+        <hr />
+
+        <!-- Contact & Conversion Section -->
+        <section id="contact">
+            <h2>Get in Touch</h2>
+
+            <p>
+                <strong>Current Availability:</strong> [Open for full-time roles
+                / Available for freelance work / Advisory work]
+            </p>
+
+            <p>
+                Email me directly at:{" "}
+                <a href="mailto:your.email@example.com">
+                    your.email@example.com
+                </a>
+            </p>
+
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <br />
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <br />
+                <div>
+                    <label for="email">Email:</label>
+                    <br />
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <br />
+                <div>
+                    <label for="message">Message:</label>
+                    <br />
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+                <br />
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+        <h3>Connect &amp; Profiles</h3>
+        <ul>
+            <li>
+                <a href="https://github.com/AcaciusFaelan" target="_blank">
+                    GitHub
+                </a>
+            </li>
+        </ul>
+        <p>&copy; 2026 Acacius Faelan. All rights reserved.</p>
+    </footer>
 </BaseLayout>
